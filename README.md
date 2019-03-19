@@ -26,3 +26,12 @@ The addition of block modifications came later in 2007. They realized that while
 ### Tips and Tricks
 ### References
 
+- [Introduction to BEM]
+- [The History of BEM] 
+
+
+[//]: Links
+
+[Introduction to BEM]: <http://getbem.com/introduction/>
+[The History of BEM]: <https://en.bem.info/methodology/history/>
+
