@@ -20,6 +20,15 @@ In the following year (2006) they started a first large project with dozens of p
 The addition of block modifications came later in 2007. They realized that while using blocks, it is possible to put several states in a block. For example in a block called button, they can use these states: `Small`; `Normal`; and `Large`. After a long journey, they refined their project structure and become nowadays BEM which is adaptive and applicable in diverse projects.
 
 ### Naming Pattern
+In general, there are 3 parts of naming system: Body, Element, and Modifier. You can see the details here:
+
+| Naming Rules    | Definition        | Example           | Customized-example |
+| --------------- | ----------------- | ----------------- | ------------------ |
+| Block           | The root of component which is standalone and meaningful on its own.   | .car | .car |
+| Element         | Part of Block, component which is tied to its Block and can not stand by it self.   | .car__rear-view-mirror | .car__rearViewMirror |
+| Modifier        | An extension or variant of Block or Element who modify them.   | .car--color-red | .car_colorRed |
+
+As you can see, those examples show that this methodology is quite flexible. It should not strictly bind your coding style since you can modify them as long as you achieved the core of BEM.
 
 ### Example
 ### Trade Offs
@@ -32,6 +41,6 @@ The addition of block modifications came later in 2007. They realized that while
 
 [//]: Links
 
-[Introduction to BEM]: <http://getbem.com/introduction/>
-[The History of BEM]: <https://en.bem.info/methodology/history/>
+[Introduction to BEM]: http://getbem.com/introduction/
+[The History of BEM]: https://en.bem.info/methodology/history/
 
