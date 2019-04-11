@@ -33,14 +33,17 @@ As you can see, those examples show that this methodology is quite flexible. It 
 ### Example
 ### Trade Offs
 ### Tips and Tricks
+Beware of your component starting context! Do not create a Block with a huge context
 ### References
 
 - [Introduction to BEM]
 - [The History of BEM] 
+- [CSS Guidelines]
 
 
 [//]: Links
 
 [Introduction to BEM]: http://getbem.com/introduction/
 [The History of BEM]: https://en.bem.info/methodology/history/
+[CSS Guidelines]: https://cssguidelin.es/#bem-like-naming
 
