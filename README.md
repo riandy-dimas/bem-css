@@ -33,7 +33,7 @@ As you can see, those examples show that this methodology is quite flexible. It 
 ### Example
 ### Trade Offs
 ### Tips and Tricks
-Beware of your component starting context! Do not create a Block with a huge context
+Beware of your component starting context! Do not create a Block with a huge context. Instead of creating a big context for a Block, you can chop them into several components and treat them as a Block.
 ### References
 
 - [Introduction to BEM]
