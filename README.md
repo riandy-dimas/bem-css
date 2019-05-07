@@ -32,8 +32,13 @@ As you can see, those examples show that this methodology is quite flexible. It 
 
 ### Example
 ### Trade Offs
+There are several drawbacks using this methodology. The very first is, it is difficult to change the habit to use BEM methodology. Changing habit for your self is a bit difficult, and it will become more difficult spreading the habit to all of your team members. Well, this drawback commonly happens when you introduce something new in your team. With a suited approach, I believe you can tackle this obstacle. :)
+
+The second is you should type more and takes a longer time. The format of this methodology forced us to write the class name of an element in a duplicate way. For example, to write a modifier you should include it's block or element class name (e.g `.car__rear-view-mirror .car__rear-view-mirror--color-red`) you typed `.car__rear-view-mirror` twice. Nevertheless, you can outwit it by using CSS preprocessors such as [Less](http://lesscss.org/) or [Sass](https://sass-lang.com/).
+
 ### Tips and Tricks
 Beware of your component starting context! Do not create a Block with a huge context. Instead of creating a big context for a Block, you can chop them into several components and treat them as a Block.
+
 ### References
 
 - [Introduction to BEM]
